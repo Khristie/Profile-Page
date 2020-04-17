@@ -1,0 +1,107 @@
+body{
+    background-color: pink;
+    align-content: center;
+    margin: 10px 0px 15px 30px;
+    font-family: cursive;
+    padding: 50px;
+
+}
+.head-container, 
+.about {
+    background-color:#6593f5;
+    font-size: 30px;
+    color: #ffffff;
+    box-shadow: 10px 10px 15px grey;
+}
+
+img {
+    border-radius: 100px;
+    
+    
+}
+
+.container-about_me{
+    background-color: pink;
+    display: block;
+    box-shadow: 10px 10px 10px grey;
+}
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+
+}
+
+input[type=submit] {
+    background-color:pink;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6593f5;
+
+}
+.container {
+    border-radius: 5px;
+    background-color: #6593f5;
+    padding: 20px;
+    margin-top: 10%;
+  }
+  
+
+
+/* footer*/
+.footer{
+    background-color: pink;
+    color: #000000;
+    text-align: center;
+    padding:2.5em 0;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.footer a {color: inherit;
+    text-decoration: none;
+
+}
+.footer__link{
+    
+    font-weight: 300;
+}
+
+
+.footer__link:hover,
+.social-list__link:hover{
+    opacity:.7;
+}
+
+.footer__link:hover{
+    text-decoration:underline;
+}
+.social-list{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+   
+}
+.social-list__item{
+    margin:0 .5em;
+    color: #fff
+    
+}
+.social-list__link{
+    padding: .5em;
+    color: #fff;
+}
